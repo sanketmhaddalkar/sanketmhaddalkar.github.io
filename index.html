@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="description" content="An App and Web Developer with over 5+ years of experience.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet"> 
     <style>
       body{
-        margin: 8px;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 0px;
         color: #fff;
       }
       .profile-banner{
@@ -20,12 +22,19 @@
         background-size: cover;
         background-position: center;
       }
+      .profile-img{
+        width: 160px;
+        height: 160px;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 50%;
+      }
     </style>
   </head>
   <body>
     <div class="profile-banner">
       <div>
-        <img src="images/profile-img.jpeg" width="100%">
+        <img class="profile-img" src="images/profile-img.jpeg" width="100%">
         <h1>Sanket Mhaddalkar</h1>
         <p>An App and Web Developer with over 5+ years of experience.</p>
       </div>
